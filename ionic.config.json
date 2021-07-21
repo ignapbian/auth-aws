@@ -1,7 +1,15 @@
 {
   "name": "authAWS",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "enterprise": {
+      "keyId": 2633,
+      "productKey": "key_34dc20007b0c43c8b37d6cd511231e4d",
+      "appId": "f27b9f41",
+      "registries": [
+        "@ionic-enterprise;https://registry.ionicframework.com/"
+      ]
+    }
   },
   "type": "react",
   "id": "f27b9f41"

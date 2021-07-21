@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import { IonApp } from '@ionic/react';
+import { IonReactRouter } from '@ionic/react-router';
+import AuthConnectContainer from './components/AuthConnectProvider/AuthConnectProvider';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <IonApp>
+    <IonReactRouter>
+      <AuthConnectContainer />
+    </IonReactRouter>
+  </IonApp>
   </React.StrictMode>,
   document.getElementById('root')
 );
