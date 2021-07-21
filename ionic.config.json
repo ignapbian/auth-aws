@@ -1,0 +1,8 @@
+{
+  "name": "authAWS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "f27b9f41"
+}
